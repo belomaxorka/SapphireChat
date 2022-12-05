@@ -1,0 +1,15 @@
+{
+  "name": "belomaxorka/sapphirechat",
+  "description": "SapphireChat - Powered and secured web chat",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "vabgalimov",
+      "email": "vabgalimov@vivaldi.net"
+    }
+  ],
+  "require": {
+    "symfony/polyfill": "^1.27"
+  }
+}
