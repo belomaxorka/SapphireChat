@@ -29,8 +29,19 @@
     }
   ],
   "require": {
+    "php": "^7.1",
     "symfony/polyfill": "^1.27",
-    "symfony/var-dumper": "^6.0"
+    "symfony/var-dumper": "4.*",
+    "smarty/smarty": "^4.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "SapphireHelpers\\": "core/helpers",
+      "SapphireComponents\\": "core/components"
+    },
+    "files": [
+      "core/bootstrap.php"
+    ]
   },
   "minimum-stability": "stable",
   "prefer-stable": true
