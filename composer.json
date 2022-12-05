@@ -10,6 +10,7 @@
     }
   ],
   "require": {
-    "symfony/polyfill": "^1.27"
+    "symfony/polyfill": "^1.27",
+    "symfony/var-dumper": "^6.0"
   }
 }
