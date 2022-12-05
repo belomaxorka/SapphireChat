@@ -1,16 +1,37 @@
 {
   "name": "belomaxorka/sapphirechat",
   "description": "SapphireChat - Powered and secured web chat",
-  "minimum-stability": "stable",
+  "type": "project",
+  "keywords": [
+    "chat",
+    "secured-chat",
+    "free-chat",
+    "open-chat",
+    "sapphire-chat",
+    "power-chat"
+  ],
   "license": "MIT",
   "authors": [
     {
       "name": "vabgalimov",
-      "email": "vabgalimov@vivaldi.net"
+      "email": "vabgalimov@vivaldi.net",
+      "homepage": "https://github.com/vabgalimov"
+    },
+    {
+      "name": "belomaxorka",
+      "email": "roman25052006.kelesh@gmail.com",
+      "homepage": "https://github.com/belomaxorka"
+    },
+    {
+      "name": "maytennnnn",
+      "email": "viktorkozyrev05@gmail.com",
+      "homepage": "https://github.com/maytennnnn"
     }
   ],
   "require": {
     "symfony/polyfill": "^1.27",
     "symfony/var-dumper": "^6.0"
-  }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
