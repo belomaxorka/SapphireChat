@@ -6,5 +6,5 @@ vendor
 composer.phar
 
 # Project
-#resources/storage
-#resources/logs
+resources/storage
+resources/logs
