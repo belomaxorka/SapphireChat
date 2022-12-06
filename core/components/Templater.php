@@ -18,6 +18,6 @@ class Templater extends \Smarty
     parent::__construct();
 
     $this->template_dir = TPL_DIR;
-    $this->compile_dir = TPL_COMPILED;
+    $this->compile_dir = TPL_COMPILED_DIR;
   }
 }
