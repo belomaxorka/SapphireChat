@@ -1,3 +1,10 @@
+# PHPStorm
 .idea
+
+# Composer
 vendor
 composer.phar
+
+# Project
+#resources/storage
+#resources/logs

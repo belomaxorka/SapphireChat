@@ -4,11 +4,10 @@ use SapphireComponents\Templater;
 
 /*
  * --------------------------------------------------------
- * Load config & defines
+ * Load defines
  * --------------------------------------------------------
  */
 require_once(ROOT . '/core/defines.php');
-require_once(ROOT . '/core/config.php');
 
 /*
  * --------------------------------------------------------

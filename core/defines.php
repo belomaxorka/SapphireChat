@@ -11,8 +11,9 @@
 
 /*
  * --------------------------------------------------------
- * Templating
+ * Directories
  * --------------------------------------------------------
  */
-define('TPL_DIR', ROOT . '/templates/');
-define('TPL_COMPILED_DIR', ROOT . '/resources/cache/templates_compiled/');
+define('ENGINE_DIR', ROOT . '/core/'); // Core
+define('RESOURCES_DIR', ROOT . '/resources/'); // Resources
+define('TPL_DIR', ROOT . '/templates/'); // Templates

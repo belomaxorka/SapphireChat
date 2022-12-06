@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2022-12-05 19:47:33
+/* Smarty version 4.3.0, created on 2022-12-06 11:13:00
   from 'C:\OSPanel\domains\localhost\templates\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_638e20a5eb3f52_25497635',
+  'unifunc' => 'content_638ef98c1f3401_03012343',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_638e20a5eb3f52_25497635 (Smarty_Internal_Template $_smarty_tpl) {
+function content_638ef98c1f3401_03012343 (Smarty_Internal_Template $_smarty_tpl) {
 ?><h1>Hello world</h1>
 <p>
     The number of pixels is: 307200.

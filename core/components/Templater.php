@@ -13,11 +13,13 @@ namespace SapphireComponents;
 
 class Templater extends \Smarty
 {
+  public $compileDir = ROOT . '/resources/storage/cache/templates_compiled/';
+
   public function __construct()
   {
     parent::__construct();
 
     $this->template_dir = TPL_DIR;
-    $this->compile_dir = TPL_COMPILED_DIR;
+    $this->compile_dir = $this->compileDir;
   }
 }
