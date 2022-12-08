@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 /**
  * SapphireChat
  * --------------------------------------------------------
@@ -8,6 +8,13 @@
  * @license https://opensource.org/licenses/MIT	(MIT License)
  * @filesource
  */
+
+/*
+ * --------------------------------------------------------
+ * Environment
+ * --------------------------------------------------------
+ */
+define('ENV_STATUS', 'development'); // Available values - development, production
 
 /*
  * --------------------------------------------------------

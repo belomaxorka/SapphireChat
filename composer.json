@@ -32,7 +32,8 @@
     "php": "^7.1|^8.0",
     "symfony/polyfill": "^1.27",
     "symfony/var-dumper": "4.*",
-    "smarty/smarty": "^4.3"
+    "smarty/smarty": "^4.3",
+    "filp/whoops": "^2.14"
   },
   "autoload": {
     "psr-4": {
