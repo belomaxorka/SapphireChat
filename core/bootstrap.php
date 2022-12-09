@@ -10,6 +10,7 @@
  */
 
 use SapphireComponents\Debug;
+use SapphireComponents\Language;
 use SapphireComponents\Templater;
 
 /*
@@ -25,6 +26,9 @@ require_once(ROOT . '/core/defines.php');
  * --------------------------------------------------------
  */
 (new Debug());
+
+$lang = Language::getLangFunction();
+dd($lang("test"));
 
 /*
  * --------------------------------------------------------

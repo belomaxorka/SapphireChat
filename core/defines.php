@@ -16,6 +16,12 @@
  */
 define('ENV_STATUS', 'development'); // Available values - development, production
 
+define("DEFAULT_LANG", "ru_RU");
+define("LANGUAGES", [
+  "ru_RU",
+  "en_US"
+]);
+
 /*
  * --------------------------------------------------------
  * Directories
