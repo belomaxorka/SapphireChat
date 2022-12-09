@@ -11,6 +11,7 @@
 
 use SapphireComponents\Debug;
 use SapphireComponents\Templater;
+use SapphireComponents\Localization;
 
 /*
  * --------------------------------------------------------
@@ -25,6 +26,14 @@ require_once(ROOT . '/core/defines.php');
  * --------------------------------------------------------
  */
 (new Debug());
+
+/*
+ * --------------------------------------------------------
+ * Localization
+ * --------------------------------------------------------
+ */
+$desc = (new Localization())->t("project-description");
+dd($desc);
 
 /*
  * --------------------------------------------------------
