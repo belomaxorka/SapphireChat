@@ -1,4 +1,5 @@
 <?php declare(strict_types=1);
+
 /**
  * SapphireChat
  * --------------------------------------------------------
@@ -10,6 +11,7 @@
  */
 
 use SapphireComponents\Debug;
+use SapphireComponents\Language;
 use SapphireComponents\Templater;
 
 /*
@@ -25,6 +27,16 @@ require_once(ROOT . '/core/defines.php');
  * --------------------------------------------------------
  */
 (new Debug());
+
+/*
+ * --------------------------------------------------------
+ * Language loader
+ * --------------------------------------------------------
+ */
+function __($key)
+{
+  return (new Language())->lang($key);
+}
 
 /*
  * --------------------------------------------------------

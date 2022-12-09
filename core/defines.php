@@ -11,6 +11,15 @@
 
 /*
  * --------------------------------------------------------
+ * Directories
+ * --------------------------------------------------------
+ */
+define('ENGINE_DIR', ROOT . '/core/'); // Core
+define('RESOURCES_DIR', ROOT . '/resources/'); // Resources
+define('TPL_DIR', ROOT . '/templates/'); // Templates
+
+/*
+ * --------------------------------------------------------
  * Environment
  * --------------------------------------------------------
  */
@@ -18,9 +27,8 @@ define('ENV_STATUS', 'development'); // Available values - development, producti
 
 /*
  * --------------------------------------------------------
- * Directories
+ * Languages
  * --------------------------------------------------------
  */
-define('ENGINE_DIR', ROOT . '/core/'); // Core
-define('RESOURCES_DIR', ROOT . '/resources/'); // Resources
-define('TPL_DIR', ROOT . '/templates/'); // Templates
+define('DEFAULT_LANG', 'ru_RU');
+define('LANGUAGES', ['ru_RU']);
